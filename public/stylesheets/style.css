@@ -4,5 +4,174 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #12a036;
 }
+#indexLogin, .hero-unit .btn-primary{
+	margin-top:30px;
+	background-image: -webkit-linear-gradient(top, #108306, #109106);
+	background-repeat: repeat-x;
+	text-align: center;
+}
+#indexLogin{
+	margin-left: 40%;
+}
+.hero-unit .btn-primary:hover {
+	background: #12a036;
+	background-color: #12a036;
+	/*background-repeat: repeat-x;*/
+}
+#indexHeader{
+	margin-left: 20%;
+}
+.hero-unit{
+	margin-top: 30px;
+}
+.hero-unit h1{
+	margin-top: 10px;
+}
+#logo {
+	float: left;
+	margin-right: 10px;
+	font-size: 1.7em;
+	color: #40bd36;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	padding-top: 9px;
+	font-weight: bold;
+	line-height: 1;
+}
+#logo:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+}
+
+/* line 95, ../../app/assets/stylesheets/custom.css.scss */
+footer a{
+	color: #12a036;
+}
+
+footer a:hover {
+	color: #222;
+	font-size: 10px;
+}
+
+/* line 99, ../../app/assets/stylesheets/custom.css.scss */
+footer small {
+	float: left;
+}
+
+/* line 103, ../../app/assets/stylesheets/custom.css.scss */
+footer ul {
+	float: right;
+	list-style: none;
+}
+
+/* line 108, ../../app/assets/stylesheets/custom.css.scss */
+footer ul li {
+	float: left;
+	margin-left: 10px;
+}
+
+#loginbtn,#regbtn,#search, #uploadbtn{
+	background-image: -webkit-linear-gradient(top, #108306, #109106);
+	background-repeat: repeat-x;
+	text-align: center;
+}
+#search{
+	vertical-align: bottom;
+}
+#loginbtn:hover, #regbtn:hover,#search:hover,#uploadbtn:hover{
+	background: #12a036;
+	background-color: #12a036;
+}
+.span4 .searchWay{
+	min-height: 170px;
+}
+
+
+#uploadSideNav {
+	width: 228px;
+	margin: 30px 0 0;
+	padding: 0;
+	background-color: #fff;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}
+#uploadSideNav > li > a {
+	display: block;
+	width: 190px \9;
+	margin: 0 0 -1px;
+	padding: 8px 14px;
+	border: 1px solid #e5e5e5;
+}
+#uploadSideNav > li:first-child > a {
+	-webkit-border-radius: 6px 6px 0 0;
+	-moz-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+}
+#uploadSideNav > li:last-child > a {
+	-webkit-border-radius: 0 0 6px 6px;
+	-moz-border-radius: 0 0 6px 6px;
+	border-radius: 0 0 6px 6px;
+}
+#uploadSideNav > .active > a {
+	position: relative;
+	z-index: 2;
+	padding: 9px 15px;
+	border: 0;
+	text-shadow: 0 1px 0 rgba(0,0,0,.15);
+	-webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+	-moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+	box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+}
+/* Chevrons */
+#uploadSideNav .icon-chevron-right {
+	float: right;
+	margin-top: 2px;
+	margin-right: -6px;
+	opacity: .25;
+}
+#uploadSideNav > li > a:hover {
+	background-color: #f5f5f5;
+}
+#uploadSideNav a:hover .icon-chevron-right {
+	opacity: .5;
+}
+#uploadSideNav .active .icon-chevron-right,
+#uploadSideNav .active a:hover .icon-chevron-right {
+	background-image: url(../img/glyphicons-halflings-white.png);
+	opacity: 1;
+}
+#uploadSideNav.affix-bottom {
+	position: absolute;
+	top: auto;
+	bottom: 270px;
+}
+
+#uploadSideNav {
+	width: auto;
+	margin-bottom: 20px;
+}
+#uploadSideNav.affix {
+	position: fixed;
+	margin-top: 70px;
+	width: 18%;
+	top: 0;
+}
+label{
+	margin-top: 10px;
+}
+section{
+	margin-top: 20px;
+}
+

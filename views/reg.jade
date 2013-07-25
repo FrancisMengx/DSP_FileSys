@@ -1,0 +1,28 @@
+extends layout
+
+block content
+		form.from-horizontal(method = "post")
+			fieldset
+				legend Register
+				div.control-group
+					label.control-label(for="username") Username
+					div.controls
+						input.input-xlarge#username(type = "text", name = "username")
+						p.help-block Username for account
+				div.control-group
+					label.control-label(for = "password") Password
+					div.controls
+						input.input-xlarge#password(type = "password", name="password")
+				div.control-group
+					label.control-label(for = "password-repeat") Password Confirm
+					div.controls
+						input.input-xlarge#password-repeat(type="password", name= "password-repeat")
+				div.control-group
+					label.control-label Choose Authorization Group
+					select(name = "author")
+						-for author in authors
+							option(value= author) #{author}
+				div.form-actions
+					button.btn.btn-primary#regbtn(type="submit") Submit
+
+//		p.alert You don't have the authorization to view this page

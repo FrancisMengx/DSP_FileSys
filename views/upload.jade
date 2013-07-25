@@ -1,0 +1,99 @@
+extends layout
+
+block content
+	div.container
+		div.row
+			div.span3(style = "margin-top: 30px")
+				ul.nav.nav-list.affix#uploadSideNav
+					li
+						a(href="#instruction") Instruction
+					li
+						a(href = "#uploadFile") Upload File
+					li
+						a(href = "#basicInfo") Course Basic Info
+					li
+						a(href = "#timeInfo") Course Time Info
+			div.span9
+				form(method = 'post', enctype='multipart/form-data')
+					section#instruction
+						div.page-header
+							h1 Upload File
+						h2 Upload Instruction
+						p.
+							Only people who has administrator authority can upload files. <br><br>
+							<b>First</b>, choose the file from your computer, preferablely .pdf, .doc or .docx file. <br>
+							<b>Second</b>, in order make it easier to retrieve the file, you need to fill out the course basic information, including department, course id, and by which professor. <br>
+							<b>Third</b>, fill out the course time information, year, term, and exam number.
+
+					hr
+					section#uploadFile
+						h2 Upload
+						p Upload the file here. .pdf, .doc and .docx files
+
+						div(data-provides = "fileupload").fileupload.fileupload-new
+							div.input-append
+								div.uneditable-input
+									i.icon-file.fileupload-exists
+									span.fileupload-preview
+								span.btn.btn-file.btn-primary#uploadbtn
+									span.fileupload-new Select file
+									span.fileupload-exists Change
+									input(type='file', name = 'file')
+								a(href = '#', data-dismiss="fileupload").btn.btn-primary.fileupload-exists#uploadbtn Remove
+					hr
+					section#basicInfo
+						h2 Course Basic Info
+						p Select the basic information of the file.
+						label Select a department:
+						select(name = 'depart')#departSelect
+							option(value = 'AB/BE') AB/BE
+							option(value = 'ChemE/Chem') ChemE/Chem
+							option(value = 'CE') CE(Civil)
+							option(value = 'CSSE') CSSE
+							option(value = 'ECE') ECE
+							option(value = 'EM') Engineering Management
+							option(value = 'HSS') HSS
+							option(value = 'MA') MA
+							option(value = 'PH/OE') PH/OE
+
+						script.
+							$("#departSelect").prop("selectedIndex", -1);
+						label Course identifier(eg: MA112):
+						input(name = 'courseId', placeholder='Course Identifier')
+						label Select file Category:
+						select(name = 'category')#categorySelect
+							option(value = 'exam') Exam
+							option(value = 'note') Note
+							option(value = 'slides') Slide
+						script.
+							$("#categorySelect").prop("selectedIndex", -1);
+						label Professor full name:
+						input(name = 'profName', placeholder='Professor Full Name')
+						label File description:
+						textarea(name = fDescription)
+					hr
+					section#timeInfo
+						h2 Course Time Info
+						Label File year:
+						input(name = 'year')
+						label File Term:
+						select(name = 'term')#termSelect
+							option(value = 1) 1st
+							option(value = 2) 2nd
+							option(value = 3) 3rd
+						script.
+							$("#termSelect").prop("selectedIndex", -1);
+						label Exam Number(if there is one)
+						select(name = 'eNumber')#examSelect
+							option(value = 1) 1st
+							option(value = 2) 2nd
+							option(value = 3) 3rd
+							option(value = 'final') Final
+						script.
+							$("#examSelect").prop("selectedIndex", -1);
+					input(type="submit", value = "Upload").btn.btn-primary#uploadbtn
+
+
+
+
+

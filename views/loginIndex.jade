@@ -1,0 +1,22 @@
+extends layout
+
+block content
+	div.hero-unit
+		h1 Delta-Sig File System
+		P Get study file here
+	div.row
+		div.span4
+			div.well.searchWay
+				h3 Search File by Major
+				p Search a certain file by major and class and professor.
+				a(href='/searchByMajor').btn.btn-primary#search Search
+		div.span4
+			div.well.searchWay
+				h3 Search File by Term
+				p Search a certain file by year term and exam number.
+				a(href='/searchByTerm').btn.btn-primary#search  Search
+		div.span4
+			div.well.searchWay
+				h3 Search File by Category
+				P Search a certain file by the category(exam, quiz, note or slideshow).
+				a(href='/searchByWord').btn.btn-primary#search  Search

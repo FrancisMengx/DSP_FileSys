@@ -1,7 +1,58 @@
 doctype 5
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+	head
+		title #{title}|DSP
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel = 'icon', href='/images/dsp.jpg')
+		link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+		link(rel='stylesheet', href='/stylesheets/jasny-bootstrap.min.css')
+		link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.min.css')
+		link(rel='stylesheet', href='/stylesheets/jasny-bootstrap-responsive.min.css')
+		script(src = '//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js')
+		script(src='/javascripts/bootstrap.min.js')
+		script(src='/javascripts/bootstrap-fileupload.js')
+		script(src= 'http://code.jquery.com/ui/1.9.1/jquery-ui.js')
+	body
+		div.navbar.navbar-fixed-top.navbar-inverse
+			div.navbar-inner
+				div.container
+					a.btn.btn-navbar(data-toggle='collapse', data-target='.nav-collapse')
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.brand#logo(href="/") DSPFS
+					div.nav-collapse
+						ul.nav
+							li
+								a(href="/") Home
+							if (!user)
+								li
+									a(href="/login") Login
+
+								li
+									a(href="/reg") Register
+
+							else
+								if(user.author == 'Admin')
+									li
+										a(href='/upload') Upload
+								li
+									a(href= "/logout") Logout
+
+
+		div.container#containter
+			if (succ)
+				div.alert.alert-success= succ
+			if (err)
+				div.alert.alert-error= err
+			block content
+
+			footer.footer
+				small
+					a(href='/errorReport')
+						font(size = '3') Report Error
+				nav
+					ul
+						li
+							a(href='/contact')
+								font(size = '3') Contact
