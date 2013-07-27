@@ -1,9 +1,10 @@
 var index, login, dologin, auth, reg, doreg, regi, logout,
-	getContact, getUploadPage, uploadFile,upload;
+	getContact, getUploadPage, uploadFile,upload, profile, getProfilePage;
 
 auth = require('./auth');
 regi = require('./reg');
 upload = require('./upload');
+profile = require('./profile');
 
 exports.route = function (app) {
 	app.get('/', index);
@@ -15,6 +16,7 @@ exports.route = function (app) {
 	app.get('/contact',getContact);
 	app.get('/upload', getUploadPage);
 	app.post('/upload', uploadFile);
+	app.get('/profile', getProfilePage);
 }
 
 index = function (req, res) {
@@ -57,4 +59,8 @@ getUploadPage = function(req,res){
 
 uploadFile = function(req, res){
 	return upload.uploadPost(req, res);
+};
+
+getProfilePage = function(req, res){
+	return profile.getProfile(req, res);
 }

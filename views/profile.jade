@@ -1,0 +1,53 @@
+extends layout
+
+block content
+	if(user)
+		div.container#profileContain
+			div.span2.sideBar
+				div.profilePic
+					img(src='/img/dsp.jpg')
+				div.well#personalInfo
+					a(href = '') Change password
+					br
+					a(href = '', style='margin-top:5px') Change profile pic
+
+
+			div.span9
+				ul.nav.nav-tabs#myTab
+					li.active
+						a(href = '#searchHistory') Search History
+					li
+						a(href = '#GPACalculator') GPA Calculator
+					li
+						a(href = '#fileRequest') File Request
+				div.tab-content
+					div.tab-pane.active#searchHistory
+						p search history
+					div.tab-pane#GPACalculator
+						legend Calculate GPA
+						div.courses
+							div.classInfo
+								input(type='text', placeholder= 'Class ID').course
+								input(type='number', placeholder='Credits',min = 1).credits
+								select.grade
+									option(value = 'a') A
+									option(value = 'b+') B+
+									option(value = 'b') B
+									option(value = 'c+') C+
+									option(value = 'c') C
+									option(value = 'd+') D+
+									option(value = 'd') D
+									option(value = 'f') F
+								button(onClick = 'addcourse()').btn.btn-primary#addcourse
+									i.icon-plus
+						button(onclick= 'calculateGPA()').btn.btn-primary#calculateBtn Calculate
+					div.tab-pane#fileRequest
+						p File Request
+		script.
+			$('#myTab a').click(function (e) {
+				e.preventDefault();
+			$(this).tab('show');
+			})
+
+	else
+		p.alert.alert-error Please login before viewing any page

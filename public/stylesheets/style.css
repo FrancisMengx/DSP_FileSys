@@ -49,6 +49,8 @@ footer {
 	margin-top: 45px;
 	padding-top: 5px;
 	border-top: 1px solid #eaeaea;
+	margin-left: 8%;
+	margin-right: 8%;
 }
 
 /* line 95, ../../app/assets/stylesheets/custom.css.scss */
@@ -78,7 +80,8 @@ footer ul li {
 	margin-left: 10px;
 }
 
-#loginbtn,#regbtn,#search, #uploadbtn{
+#loginbtn,#regbtn,#search, #uploadbtn,
+#addcourse,#calculateBtn{
 	background-image: -webkit-linear-gradient(top, #108306, #109106);
 	background-repeat: repeat-x;
 	text-align: center;
@@ -86,7 +89,8 @@ footer ul li {
 #search{
 	vertical-align: bottom;
 }
-#loginbtn:hover, #regbtn:hover,#search:hover,#uploadbtn:hover{
+#loginbtn:hover, #regbtn:hover,#search:hover,#uploadbtn:hover,
+#addcourse:hover, #calculateBtn:hover{
 	background: #12a036;
 	background-color: #12a036;
 }
@@ -174,4 +178,33 @@ label{
 section{
 	margin-top: 20px;
 }
+.container #profileContain{
+	margin-top: 20px;
+	min-height: 500px;
+}
+#personalInfo{
+	min-height: 300px;
+}
 
+.class{
+	margin-left: 10px;
+}
+.credits{
+	margin-left: 20px;
+	width: 70px;
+}
+.grade{
+	margin-left: 20px;
+	width: 50px;
+}
+#addcourse{
+	margin-bottom: 10px;
+	margin-left: 10%;
+}
+
+div a{
+	color: #12a036;
+}
+#calculateBtn{
+	margin-left: 20%;
+}

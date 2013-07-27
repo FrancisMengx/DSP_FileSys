@@ -3,8 +3,10 @@ html
 	head
 		title #{title}|DSP
 		link(rel='stylesheet', href='/stylesheets/style.css')
-		link(rel = 'icon', href='/images/dsp.jpg')
-		link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+		link(href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css", rel="stylesheet")
+		link(href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css", rel="stylesheet")
+		link(rel = 'icon', href='/img/dsp.jpg')
+
 		link(rel='stylesheet', href='/stylesheets/jasny-bootstrap.min.css')
 		link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.min.css')
 		link(rel='stylesheet', href='/stylesheets/jasny-bootstrap-responsive.min.css')
@@ -12,6 +14,7 @@ html
 		script(src='/javascripts/bootstrap.min.js')
 		script(src='/javascripts/bootstrap-fileupload.js')
 		script(src= 'http://code.jquery.com/ui/1.9.1/jquery-ui.js')
+		script(src='/javascripts/front.js')
 	body
 		div.navbar.navbar-fixed-top.navbar-inverse
 			div.navbar-inner
@@ -33,6 +36,10 @@ html
 									a(href="/reg") Register
 
 							else
+								li
+									a(href="/profile") Profile
+								li
+									a(hre = "/search") Search File
 								if(user.author == 'Admin')
 									li
 										a(href='/upload') Upload
@@ -46,13 +53,12 @@ html
 			if (err)
 				div.alert.alert-error= err
 			block content
-
-			footer.footer
-				small
-					a(href='/errorReport')
-						font(size = '3') Report Error
-				nav
-					ul
-						li
-							a(href='/contact')
-								font(size = '3') Contact
+		footer.footer.affix-bottom
+			small
+				a(href='/errorReport')
+					font(size = '3') Report Error
+			nav
+				ul
+					li
+						a(href='/contact')
+							font(size = '3') Contact
