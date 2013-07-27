@@ -3,7 +3,7 @@ crypto = require('crypto');
 User = require('../models/User');
 
 exports.reg = function (req, res) {
-	res.render('reg', {title: 'Register', authors: ['Admin','User']});
+	res.render('reg', {title: 'Register', authors: ['Admin','Dev','User']});
 };
 
 exports.doReg = function (req, res) {

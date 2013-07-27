@@ -26,8 +26,6 @@ html
 					a.brand#logo(href="/") DSPFS
 					div.nav-collapse
 						ul.nav
-							li
-								a(href="/") Home
 							if (!user)
 								li
 									a(href="/login") Login
@@ -39,10 +37,13 @@ html
 								li
 									a(href="/profile") Profile
 								li
-									a(hre = "/search") Search File
-								if(user.author == 'Admin')
+									a(href= "/search") Search File
+								if(user.author == 'Admin' | user.author == 'Dev')
 									li
 										a(href='/upload') Upload
+								if(user.author == 'Dev')
+									li
+										a(href='/error') Reported Errors
 								li
 									a(href= "/logout") Logout
 

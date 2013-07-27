@@ -2,102 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41bf2781-108c-4d6e-b531-deefcb486dd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/front.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/profile.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/profile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/search.jade" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/asdfa.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/dsp.jpg" afterPath="$PROJECT_DIR$/public/img/dsp.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/connect-mongo/node_modules/mongodb/node_modules/bson/test/node/bson_test.js" afterPath="$PROJECT_DIR$/node_modules/connect-mongo/node_modules/mongodb/node_modules/bson/test/node/bson_test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/directory.js" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/directory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/directory.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/middleware/directory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/test/fixture/js/encoding.js" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/test/fixture/js/encoding.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js/encoding.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js/encoding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/search.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/loginIndex.jade" afterPath="$PROJECT_DIR$/views/loginIndex.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/connect-flash/package.json" afterPath="$PROJECT_DIR$/node_modules/connect-flash/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/connect-mongo/package.json" afterPath="$PROJECT_DIR$/node_modules/connect-mongo/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/connect-mongo/node_modules/mongodb/package.json" afterPath="$PROJECT_DIR$/node_modules/connect-mongo/node_modules/mongodb/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/package.json" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/package.json" afterPath="$PROJECT_DIR$/node_modules/express/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/commander/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/cookie/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/mkdirp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/character-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/character-parser/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/optimist/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/optimist/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/source-map/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/event-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/event-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/event-stream/node_modules/duplexer/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/event-stream/node_modules/duplexer/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/event-stream/node_modules/optimist/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/event-stream/node_modules/optimist/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/event-stream/node_modules/split/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/event-stream/node_modules/split/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/event-stream/node_modules/split/node_modules/through/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/event-stream/node_modules/split/node_modules/through/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/event-stream/node_modules/through/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/event-stream/node_modules/through/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/tap-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/tap-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/tap-stream/node_modules/through/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/examples/node_modules/tap-stream/node_modules/through/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/promise/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/promise/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/with/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/uglify-js/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/uglify-js/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/optimist/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/optimist/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/source-map/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/package.json" afterPath="$PROJECT_DIR$/node_modules/mongodb/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/form-data/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/form-data/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/boom/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/boom/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/sntp/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/sntp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/htmlparser2/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/htmlparser2/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/htmlparser2/node_modules/domhandler/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/htmlparser2/node_modules/domhandler/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/form-data/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/form-data/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/boom/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/boom/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/sntp/package.json" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/sntp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/reg.jade" afterPath="$PROJECT_DIR$/views/reg.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/request.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/request.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/response.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/response.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/profile.jade" afterPath="$PROJECT_DIR$/views/profile.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/reg.js" afterPath="$PROJECT_DIR$/routes/reg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/search.jade" afterPath="$PROJECT_DIR$/views/search.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/test/unit/test-file.js" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/test/unit/test-file.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/unit/test-file.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/test/unit/test-file.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/tests/test-form.js" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/tests/test-form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/tests/test-form.js" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/tests/test-form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/tests/test-pipes.js" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/tests/test-pipes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/tests/test-pipes.js" afterPath="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/tests/test-pipes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/connect-mongo/node_modules/mongodb/node_modules/bson/test/node/test_full_bson.js" afterPath="$PROJECT_DIR$/node_modules/connect-mongo/node_modules/mongodb/node_modules/bson/test/node/test_full_bson.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/upload.jade" afterPath="$PROJECT_DIR$/views/upload.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FileSystem.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374792068975" ignored="false" />
+    <file path="/Dummy.txt" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374915714992" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/views/layout.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374615195721" ignored="false" />
-    <file path="/index.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374871693709" ignored="false" />
-    <file path="/layout.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374913666455" ignored="false" />
+    <file path="/index.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374916365674" ignored="false" />
+    <file path="/layout.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374916941612" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/reg.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374616453200" ignored="false" />
     <file path="/reg.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374616863201" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/http-signature/node_modules/ctype/ctype.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374616594778" ignored="false" />
@@ -109,21 +29,23 @@
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/stylesheets/bootstrap.min.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374626394539" ignored="false" />
     <file path="/index.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374683078424" ignored="false" />
     <file path="/footer.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374627272185" ignored="false" />
-    <file path="/style.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374910319131" ignored="false" />
+    <file path="/style.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374918564027" ignored="false" />
     <file path="/login.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374637879626" ignored="false" />
     <file path="/reg.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374871781097" ignored="false" />
-    <file path="/loginIndex.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374871301492" ignored="false" />
+    <file path="/loginIndex.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374914189160" ignored="false" />
     <file path="/contact.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374689334794" ignored="false" />
     <file path="/upload.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374871847738" ignored="false" />
     <file path="/upload.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374786251546" ignored="false" />
     <file path="/asdfa.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374701169966" ignored="false" />
     <file path="/File.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374785720405" ignored="false" />
-    <file path="/profile.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374913591514" ignored="false" />
+    <file path="/profile.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374916578989" ignored="false" />
     <file path="/profile.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374871663595" ignored="false" />
     <file path="/a.dummy" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374891090915" ignored="false" />
     <file path="/bootstrap.min.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374894924203" ignored="false" />
     <file path="/bootstrap.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374894057973" ignored="false" />
     <file path="/front.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374913416911" ignored="false" />
+    <file path="/search.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374943931224" ignored="false" />
+    <file path="/search.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374916326673" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +68,7 @@
       <file leaf-file-name="reg.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/reg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="38" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+            <state line="27" column="40" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -155,7 +77,25 @@
       <file leaf-file-name="layout.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="66" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.0">
+            <state line="26" column="36" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="2" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginIndex.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/loginIndex.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="17" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -164,16 +104,7 @@
       <file leaf-file-name="search.jade" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/search.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/connect/node_modules/formidable/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="386" selection-start="1147" selection-end="1147" vertical-scroll-proportion="-6.230769">
+            <state line="11" column="64" selection-start="228" selection-end="228" vertical-scroll-proportion="0.20064378">
               <folding />
             </state>
           </provider>
@@ -182,34 +113,43 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="10" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.0">
+            <state line="207" column="14" selection-start="3888" selection-end="3888" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/form-data/package.json">
+      <file leaf-file-name="reg.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/reg.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="4973" selection-end="4973" vertical-scroll-proportion="-11.846154">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="front.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/front.js">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="39" selection-start="2161" selection-end="2161" vertical-scroll-proportion="-20.26923">
+            <state line="26" column="26" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/upload.jade">
+      <file leaf-file-name="profile.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/profile.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="81" selection-start="2185" selection-end="2185" vertical-scroll-proportion="0.0">
+            <state line="19" column="65" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/search.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -233,29 +173,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/routes/reg.js" />
-        <option value="$PROJECT_DIR$/views/asdfa.html" />
-        <option value="$PROJECT_DIR$/models/File.js" />
         <option value="$PROJECT_DIR$/routes/upload.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/reg.jade" />
         <option value="$PROJECT_DIR$/routes/profile.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/bootstrap.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/form-data/package.json" />
         <option value="$PROJECT_DIR$/views/upload.jade" />
-        <option value="$PROJECT_DIR$/views/loginIndex.jade" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/public/javascripts/front.js" />
+        <option value="$PROJECT_DIR$/views/loginIndex.jade" />
+        <option value="$PROJECT_DIR$/routes/search.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/profile.jade" />
+        <option value="$PROJECT_DIR$/routes/reg.js" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/views/search.jade" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="x" value="1440" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -271,7 +211,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -526,8 +466,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../activiti-UI" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -562,14 +502,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="false" />
+    <frame x="1440" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1771348" sideWeight="0.67241377" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13231418" sideWeight="0.67241377" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -578,6 +517,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -646,44 +586,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/contact.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/jasny-bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14754" selection-start="14965" selection-end="14966" vertical-scroll-proportion="0.20481928">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap-responsive.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="5" selection-start="73" selection-end="74" vertical-scroll-proportion="0.063253015">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/jasny-bootstrap-responsive.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="34419" selection-start="34648" selection-end="34648" vertical-scroll-proportion="0.19074334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/loginIndex.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="248" selection-end="248" vertical-scroll-proportion="0.25757575">
           <folding />
         </state>
       </provider>
@@ -695,16 +600,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/reg.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/form-data/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="38" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+        <state line="40" column="0" selection-start="4973" selection-end="4973" vertical-scroll-proportion="0.64725643">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/connect/node_modules/formidable/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="386" selection-start="1147" selection-end="1147" vertical-scroll-proportion="-6.230769">
+        <state line="5" column="22" selection-start="216" selection-end="216" vertical-scroll-proportion="0.020156775">
           <folding />
         </state>
       </provider>
@@ -718,42 +623,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/front.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="39" selection-start="2161" selection-end="2161" vertical-scroll-proportion="-20.26923">
+        <state line="63" column="39" selection-start="2161" selection-end="2161" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/reg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="40" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/profile.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="12" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.8195592">
+        <state line="19" column="65" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/node-jquery/node_modules/jsdom/node_modules/request/node_modules/form-data/package.json">
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="4973" selection-end="4973" vertical-scroll-proportion="-11.846154">
+        <state line="26" column="26" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+    <entry file="file://$PROJECT_DIR$/views/reg.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="10" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="66" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.0">
+        <state line="26" column="36" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="207" column="14" selection-start="3888" selection-end="3888" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/loginIndex.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="17" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/search.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="11" column="64" selection-start="228" selection-end="228" vertical-scroll-proportion="0.20064378">
           <folding />
         </state>
       </provider>

@@ -22,7 +22,7 @@ block content
 						a(href = '#fileRequest') File Request
 				div.tab-content
 					div.tab-pane.active#searchHistory
-						p search history
+						legend Search History
 					div.tab-pane#GPACalculator
 						legend Calculate GPA
 						div.courses
@@ -42,7 +42,7 @@ block content
 									i.icon-plus
 						button(onclick= 'calculateGPA()').btn.btn-primary#calculateBtn Calculate
 					div.tab-pane#fileRequest
-						p File Request
+						legend File Request
 		script.
 			$('#myTab a').click(function (e) {
 				e.preventDefault();

@@ -1,10 +1,12 @@
 var index, login, dologin, auth, reg, doreg, regi, logout,
-	getContact, getUploadPage, uploadFile,upload, profile, getProfilePage;
+	getContact, getUploadPage, uploadFile,upload, profile,
+	getProfilePage, getSearchPage, sendSearchInfo,search;
 
 auth = require('./auth');
 regi = require('./reg');
 upload = require('./upload');
 profile = require('./profile');
+search = require('./search');
 
 exports.route = function (app) {
 	app.get('/', index);
@@ -17,6 +19,8 @@ exports.route = function (app) {
 	app.get('/upload', getUploadPage);
 	app.post('/upload', uploadFile);
 	app.get('/profile', getProfilePage);
+	app.get('/search', getSearchPage);
+	app.post('/search', sendSearchInfo)
 }
 
 index = function (req, res) {
@@ -63,4 +67,12 @@ uploadFile = function(req, res){
 
 getProfilePage = function(req, res){
 	return profile.getProfile(req, res);
+};
+
+getSearchPage = function(req, res){
+	return search.getSearchPage(req, res);
+};
+
+sendSearchInfo = function(req, res){
+	return search.postSearchBody(req, res);
 }
