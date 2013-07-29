@@ -46,8 +46,7 @@ a {
 }
 
 footer {
-	margin-top: 45px;
-	padding-top: 5px;
+	margin-top: 15px;
 	border-top: 1px solid #eaeaea;
 	margin-left: 8%;
 	margin-right: 8%;
@@ -110,6 +109,7 @@ footer ul li {
 	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
 	-moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
 	box-shadow: 0 1px 4px rgba(0,0,0,.065);
+
 }
 #uploadSideNav > li > a {
 	display: block;
@@ -168,13 +168,11 @@ footer ul li {
 }
 #uploadSideNav.affix {
 	position: fixed;
-	margin-top: 70px;
+	margin-top: 95px;
 	width: 18%;
 	top: 0;
 }
-label{
-	margin-top: 10px;
-}
+
 section{
 	margin-top: 20px;
 }
@@ -209,6 +207,10 @@ div a{
 	margin-left: 20%;
 }
 
-.searchComponents{
-	margin-top: 10px;
+
+.courseInfo{
+	margin-left: 15px;
+}
+#searchComponent{
+	margin-left: 0px;
 }

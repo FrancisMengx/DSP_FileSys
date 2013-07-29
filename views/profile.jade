@@ -47,7 +47,11 @@ block content
 			$('#myTab a').click(function (e) {
 				e.preventDefault();
 			$(this).tab('show');
-			})
+			});
+			console.log(window.location.pathname );
+			if(window.location.pathname == '/profile#fileRequest'){
+				$('#fileRequest').tab('show');
+			}
 
 	else
 		p.alert.alert-error Please login before viewing any page

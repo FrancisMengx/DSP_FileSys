@@ -12,7 +12,7 @@ var File = require('../models/File');
 exports.uploadPost = function (req, res) {
 	saveFileLocal(req, res);
 	storeFileDB(req, res);
-	res.redirect('/');
+
 }
 
 var saveFileLocal = function (req, res) {
@@ -21,6 +21,7 @@ var saveFileLocal = function (req, res) {
 		fs.writeFile(newPath, data, function(err){
 			if(!err){
 				req.flash('Upload success');
+
 			}
 		})
 	});
@@ -31,7 +32,7 @@ var storeFileDB = function (req, res) {
 		name: req.files.file.name,
 		addr: __dirname+'/../files/'+req.files.file.name,
 		depart: req.body['depart'],
-		id: req.body['courseId'],
+		id: req.body['courseId'].toLowerCase(),
 		cat: req.body['category'],
 		pName: req.body['profName'],
 		desc: req.body['fDescription'],
@@ -52,6 +53,8 @@ var storeFileDB = function (req, res) {
 				req.flash('error', err);
 				return res.redirect('/upload');
 			}
+			req.flash('success', 'Upload success');
+			return res.redirect('/upload');
 		});
 	});
 }

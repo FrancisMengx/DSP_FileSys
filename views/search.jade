@@ -1,12 +1,56 @@
 extends layout
 block content
 	if(user)
-		div.span4.searchComponents
+		div.span4#searchComponent
 			legend
 				h2 Search File
-			div
-		div.span7.searchComponents
+			div.searchContent.well
+					h4 Course Info:
+					div.courseInfo
+						label Select Department：
+						select(name = 'depart', onchange='ajaxSearch()')#departSelect
+							option(value = 'AB/BE') AB/BE
+							option(value = 'ChemE/Chem') ChemE/Chem
+							option(value = 'CE') CE(Civil)
+							option(value = 'CSSE') CSSE
+							option(value = 'ECE') ECE
+							option(value = 'EM') Engineering Management
+							option(value = 'HSS') HSS
+							option(value = 'MA') MA
+							option(value = 'PH/OE') PH/OE
+						label Course Identifier:
+						input(name = 'courseId', placeholder='Course Identifier', onchange='ajaxSearch()')#courseId
+						label Select File Type:
+						select(name = 'category', onchange='ajaxSearch()')#categorySelect
+							option(value = 'exam') Exam
+							option(value = 'note') Note
+							option(value = 'slides') Slide
+						label Professor Name
+						input(name = 'profName', placeholder='Professor Full Name', onchange='ajaxSearch()')#profName
+					h4 Course Time Info:
+					div.courseInfo
+						Label File year:
+						input(name = 'year', onchange='ajaxSearch()')#year
+						label File Term:
+						select(name = 'term', onchange='ajaxSearch()')#termSelect
+							option(value = 1) 1st
+							option(value = 2) 2nd
+							option(value = 3) 3rd
+						label Exam Number(if there is one)：
+						select(name = 'eNumber', onchange='ajaxSearch()')#examSelect
+							option(value = 1) 1st
+							option(value = 2) 2nd
+							option(value = 3) 3rd
+							option(value = 'final') Final
+					script.
+						$("#departSelect").prop("selectedIndex", -1);
+						$("#termSelect").prop("selectedIndex", -1);
+						$("#examSelect").prop("selectedIndex", -1);
+						$("#categorySelect").prop("selectedIndex", -1);
+
+		div.span8
 			legend
 				h2 Search Result
+			div.searchResult
 	else
 		p.alert.alert-error Please login before viewing any page

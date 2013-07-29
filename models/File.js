@@ -23,7 +23,7 @@ module.exports = File;
 File.prototype.save = function save(callback) {
 	var file = {
 		name: this.name,
-		addr:this.addr,
+		addr: this.addr,
 		depart: this.depart,
 		id: this.id,
 		cat: this.cat,
@@ -33,11 +33,11 @@ File.prototype.save = function save(callback) {
 		term: this.term,
 		eNo: this.eNo
 	}
-	mongodb.open(function(err, db){
+	mongodb.open(function (err, db) {
 		if (err) {
 			return callback(err);
 		}
-		db.collection('files', function (err, collection){
+		db.collection('files', function (err, collection) {
 			if (err) {
 				mongodb.close();
 				return callback(err);
@@ -61,7 +61,7 @@ File.get = function get(filename, callback) {
 				mongodb.close();
 				return callback(err);
 			}
-			collection.findOne({name: filename}, function (err, doc) {
+			collection.findOne({name:filename}, function (err, doc) {
 				mongodb.close();
 				if (doc) {
 					var file = new File(doc);
@@ -73,3 +73,26 @@ File.get = function get(filename, callback) {
 		});
 	});
 };
+
+File.search = function search(file, callback){
+	mongodb.open(function (err, db) {
+		if (err) {
+			return callback(err);
+		}
+		db.collection('files', function (err, collection) {
+			if (err) {
+				mongodb.close();
+				return callback(err);
+			}
+			collection.find({depart: "CSSE" }, function (err, doc) {
+				mongodb.close();
+				if (doc) {
+					var file = new File(doc);
+					callback(err, file);
+				} else {
+					callback(err, null);
+				}
+			});
+		});
+	});
+}
