@@ -74,7 +74,7 @@ File.get = function get(filename, callback) {
 	});
 };
 
-File.search = function search(file, callback){
+File.search = function search(searchQuery, callback){
 	mongodb.open(function (err, db) {
 		if (err) {
 			return callback(err);
@@ -84,11 +84,19 @@ File.search = function search(file, callback){
 				mongodb.close();
 				return callback(err);
 			}
-			collection.find({depart: "CSSE" }, function (err, doc) {
+			collection.find(searchQuery).toArray( function (err, docs) {
 				mongodb.close();
-				if (doc) {
-					var file = new File(doc);
-					callback(err, file);
+				if (!err || docs) {
+					var files = [], i = 0;
+					docs.forEach(function(singleFile){
+						var file = new File(singleFile);
+						files[i] = file;
+						i++;
+					});
+					callback(err, files);
+//					var file = new File(doc);
+//						callback(err, file);
+
 				} else {
 					callback(err, null);
 				}

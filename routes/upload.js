@@ -29,7 +29,7 @@ var saveFileLocal = function (req, res) {
 
 var storeFileDB = function (req, res) {
 	var newFile = new File({
-		name: req.files.file.name,
+		name: req.files.file.name.replace(/\s/g, ''),
 		addr: __dirname+'/../files/'+req.files.file.name,
 		depart: req.body['depart'],
 		id: req.body['courseId'].toLowerCase(),

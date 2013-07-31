@@ -32,7 +32,7 @@ app.use(express.cookieParser('keyboard cat'));
 
 app.use(express.session({
 	cookie: {
-		maxAge: 6000000
+		maxAge: 600000000
 	}
 }));
 

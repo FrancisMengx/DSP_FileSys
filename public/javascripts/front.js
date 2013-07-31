@@ -74,20 +74,46 @@ function calculateGPA() {
 }
 
 function ajaxSearch() {
+
+	$('.searchResult').empty();
+	var id;
+	if($('#courseId').val()){
+		id = $('#courseId').val().toLowerCase();
+	}
 	$.ajax({
 		url: "http://localhost:8000/search",
 		type: "post",
-		data: JSON.stringify({depart: $('#departSelect').val(), id: $('#couseId').val(),
+		data: JSON.stringify({depart: $('#departSelect').val(), id: id,
 			cat: $('#categorySelect').val(), pName: $('#profName').val(),
 			year: $('#year').val(), term: $('#termSelect').val(),
 			examNo: $('#examSelect').val()}),
 		dataType: "json",
 		contentType: 'application/json',
 		success: function (message) {
-			$('.searchResult').append('<p>'+JSON.stringify(message)+'</p>');
+			if(message.body.length == 0){
+				$('.searchResult').append('<p class = "alert alert-info">No Result Found</p>');
+			}else{
+
+			$('.searchResult').append('<table class="table table-bordered table-striped"><tbody>');
+			$('.table').append('<thead>' +
+				'<tr><th colspan="2">File Name</th><th>Course ID</th><th>File Type</th></thead>');
+			for(var k = 0; k < message.body.length; k++){
+				console.log(message.body[k].name);
+				$('.table').append(
+					'<tr>' +
+						'<td colspan="2"><a href = "">'+message.body[k].name+'</a></td>' +
+						'<td colspan="1">'+message.body[k].id.toUpperCase()+'</td>' +
+						'<td colspan="1">'+message.body[k].cat+'</td>'
+					+'</tr>');
+			}
+			$('.searchResult').append('</tbody></table>');
+//				'<p>'+JSON.stringify(message.body.id.toUpperCase())+'</p>');
+
+			}
 		},
 		error: function (errorMessage) {
 			$('.searchResult').append('<p>Error</p>')
+			console.log(JSON.stringify(errorMessage))
 		}
 	});
 }
