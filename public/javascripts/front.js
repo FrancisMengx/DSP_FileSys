@@ -101,7 +101,7 @@ function ajaxSearch() {
 				console.log(message.body[k].name);
 				$('.table').append(
 					'<tr>' +
-						'<td colspan="2"><a href = "">'+message.body[k].name+'</a></td>' +
+						'<td colspan="2"><a href = "/file/'+message.body[k].name+'">'+message.body[k].name+'</a></td>' +
 						'<td colspan="1">'+message.body[k].id.toUpperCase()+'</td>' +
 						'<td colspan="1">'+message.body[k].cat+'</td>'
 					+'</tr>');
