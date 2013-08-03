@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41bf2781-108c-4d6e-b531-deefcb486dd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/viewFile.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/viewFile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/front.js" afterPath="$PROJECT_DIR$/public/javascripts/front.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="41bf2781-108c-4d6e-b531-deefcb486dd7" name="Default" comment="" />
     <ignored path="FileSystem.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375453695301" ignored="false" />
@@ -43,7 +37,7 @@
     <file path="/search.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375070946793" ignored="false" />
     <file path="/search.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375195061901" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/bindingAJAX.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375374400536" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/processRun.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375457341734" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/processRun.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375460759990" ignored="false" />
     <file path="/processRun.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375456781285" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/stylesheets/bp3-Brazos.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375111464760" ignored="false" />
     <file path="/bp3-Brazos.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375111464760" ignored="false" />
@@ -65,20 +59,20 @@
     <file path="/layout.yaml" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375202692829" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/snippet/brazosheader.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375209482142" ignored="false" />
     <file path="/brazosheader.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375209217923" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/snippet/snippet-templates.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375371565792" ignored="false" />
-    <file path="/snippet-templates.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375371530399" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/snippet/snippet-templates.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375471939658" ignored="false" />
+    <file path="/snippet-templates.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375471939658" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/data/layout.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375203009041" ignored="false" />
     <file path="/layout.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375203003844" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/views/buildUI.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375203153259" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/views/buildUI.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375472179851" ignored="false" />
     <file path="/buildUI.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375203106902" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/data/buttons.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375203226119" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/data/input.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375371464644" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/main-built.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375372452951" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/main-built.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375472027316" ignored="false" />
     <file path="/input.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375286940024" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/app_backup.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375208223461" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/binding_json/nameInput.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375209025268" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/snippet/formname.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375457066347" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/app/renderform.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375456643891" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/app/renderform.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375469532524" ignored="false" />
     <file path="/renderform.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375211450009" ignored="false" />
     <file path="/formname.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375457021291" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/views/taskUI/testing.ejs" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375212181611" ignored="false" />
@@ -103,6 +97,20 @@
     <file path="/filebutton.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375368341945" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/snippet/documentationoutput.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375372035980" ignored="false" />
     <file path="/documentationoutput.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375372035980" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/app/render.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375460808591" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/app/temp.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375472450051" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/app.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375462316677" ignored="false" />
+    <file path="/app.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375462316677" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/data/template.json.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375462189251" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/data/template.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375471683461" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/snippet/span2Temp.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375463345596" ignored="false" />
+    <file path="/span2Temp.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375471623160" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/snippet/span2temp.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375469550428" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/snippet/span6temp.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375471350712" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/snippet/spanclose.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375471488724" ignored="false" />
+    <file path="/spanclose.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375471488724" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/snippet/span4temp.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375471641091" ignored="false" />
+    <file path="/temp.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375472446667" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -504,7 +512,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12651555" sideWeight="0.67241377" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12651555" sideWeight="0.67241377" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
