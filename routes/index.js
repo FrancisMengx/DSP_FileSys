@@ -1,7 +1,7 @@
 var index, login, dologin, auth, reg, doreg, regi, logout,
 	getContact, getUploadPage, uploadFile,upload, profile,
 	getProfilePage, getSearchPage, sendSearchInfo,search,
-	getViewPage, view, getPdfFile;
+	getViewPage, view, getPdfFile, downloadFile;
 
 auth = require('./auth');
 regi = require('./reg');
@@ -25,6 +25,7 @@ exports.route = function (app) {
 	app.post('/search', sendSearchInfo);
 	app.get('/file/:fileName', getViewPage);
 	app.get('/:fileName', getPdfFile);
+	app.get('/download/:fileName', downloadFile);
 }
 
 index = function (req, res) {
@@ -87,4 +88,5 @@ getViewPage = function(req, res){
 
 getPdfFile = function(req, res){
 	return view.getPdfFile(req,res);
-}
+};
+
