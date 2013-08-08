@@ -94,9 +94,6 @@ File.search = function search(searchQuery, callback){
 						i++;
 					});
 					callback(err, files);
-//					var file = new File(doc);
-//						callback(err, file);
-
 				} else {
 					callback(err, null);
 				}
