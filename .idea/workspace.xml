@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41bf2781-108c-4d6e-b531-deefcb486dd7" name="Default" comment="" />
+    <list default="true" id="41bf2781-108c-4d6e-b531-deefcb486dd7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jquery.media.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/glyphicons-halflings.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/front.js" afterPath="$PROJECT_DIR$/public/javascripts/front.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/search.jade" afterPath="$PROJECT_DIR$/views/search.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/upload.jade" afterPath="$PROJECT_DIR$/views/upload.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/viewFile.jade" afterPath="$PROJECT_DIR$/views/viewFile.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/viewFile.js" afterPath="$PROJECT_DIR$/routes/viewFile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="FileSystem.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375453695301" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/views/layout.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374615195721" ignored="false" />
-    <file path="/index.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375301454866" ignored="false" />
-    <file path="/layout.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375126846779" ignored="false" />
+    <file path="/Dummy.txt" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375814789948" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/views/layout.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375898417992" ignored="false" />
+    <file path="/index.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375909885314" ignored="false" />
+    <file path="/layout.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375908678916" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/reg.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375124543617" ignored="false" />
     <file path="/reg.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375108841581" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/node-jquery/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/http-signature/node_modules/ctype/ctype.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374616594778" ignored="false" />
@@ -19,12 +34,12 @@
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/stylesheets/bootstrap.min.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374626394539" ignored="false" />
     <file path="/index.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374683078424" ignored="false" />
     <file path="/footer.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374627272185" ignored="false" />
-    <file path="/style.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375390421007" ignored="false" />
+    <file path="/style.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375981095918" ignored="false" />
     <file path="/login.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374637879626" ignored="false" />
     <file path="/reg.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375212686535" ignored="false" />
     <file path="/loginIndex.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374914189160" ignored="false" />
     <file path="/contact.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374689334794" ignored="false" />
-    <file path="/upload.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375212710557" ignored="false" />
+    <file path="/upload.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375981461932" ignored="false" />
     <file path="/upload.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375141053108" ignored="false" />
     <file path="/asdfa.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374701169966" ignored="false" />
     <file path="/File.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375137376590" ignored="false" />
@@ -33,27 +48,27 @@
     <file path="/a.dummy" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374891090915" ignored="false" />
     <file path="/bootstrap.min.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374894924203" ignored="false" />
     <file path="/bootstrap.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1374894057973" ignored="false" />
-    <file path="/front.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375300763358" ignored="false" />
-    <file path="/search.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375070946793" ignored="false" />
+    <file path="/front.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375977149306" ignored="false" />
+    <file path="/search.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375971892335" ignored="false" />
     <file path="/search.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375195061901" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/bindingAJAX.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375374400536" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/processRun.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375460759990" ignored="false" />
-    <file path="/processRun.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375456781285" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/bindingAJAX.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375898370419" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/processRun.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375814813445" ignored="false" />
+    <file path="/processRun.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375728492800" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/stylesheets/bp3-Brazos.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375111464760" ignored="false" />
     <file path="/bp3-Brazos.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375111464760" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/views/taskUI/NameInputForm.ejs" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375288490468" ignored="false" />
     <file path="/NameInputForm.ejs" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375197339665" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/views/taskUI/NameDisplayForm.ejs" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375303378226" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/stylesheets/style.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375390423068" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/build&amp;bind.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375212263723" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/binding_json/handleRequest.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375124543617" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/views/databind.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375209538388" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/index.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375124543617" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/user.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375124543617" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/package.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375124543617" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/userTask.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375134169379" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/build&amp;bind.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375903183109" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/binding_json/handleRequest.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375716532258" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/views/databind.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375716532258" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/index.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375890566478" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/user.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375814783028" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/package.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375814783028" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/userTask.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375716532258" ignored="false" />
     <file path="/bp3-brazos.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375389130309" ignored="false" />
-    <file path="/build&amp;bind.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375200546021" ignored="false" />
+    <file path="/build&amp;bind.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375902580815" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/data/yaml/layout.yaml" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375202694429" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/data/yaml/buttons.yaml" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375201569741" ignored="false" />
     <file path="/layout.yaml" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375202692829" ignored="false" />
@@ -63,14 +78,14 @@
     <file path="/snippet-templates.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375471939658" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/data/layout.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375203009041" ignored="false" />
     <file path="/layout.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375203003844" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/views/buildUI.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375472179851" ignored="false" />
-    <file path="/buildUI.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375203106902" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/views/buildUI.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375902362730" ignored="false" />
+    <file path="/buildUI.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375902362730" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/data/buttons.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375203226119" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/data/input.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375371464644" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/data/input.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375814512242" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/main-built.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375472027316" ignored="false" />
     <file path="/input.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375286940024" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/app_backup.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375208223461" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/binding_json/nameInput.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375209025268" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/binding_json/nameInput.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375716532257" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/snippet/formname.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375457066347" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/app/renderform.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375469532524" ignored="false" />
     <file path="/renderform.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375211450009" ignored="false" />
@@ -85,8 +100,8 @@
     <file path="/textinput.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375287764853" ignored="false" />
     <file path="/custom.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375287910683" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/stylesheets/css/custom.css" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375287912009" ignored="false" />
-    <file path="/viewFile.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375301670931" ignored="false" />
-    <file path="/viewFile.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375301692582" ignored="false" />
+    <file path="/viewFile.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375909960725" ignored="false" />
+    <file path="/viewFile.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375981345767" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/snippet/output.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375371508165" ignored="false" />
     <file path="/output.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375367235847" ignored="false" />
     <file path="/NameDisplayForm.ejs" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375303231565" ignored="false" />
@@ -97,8 +112,8 @@
     <file path="/filebutton.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375368341945" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/snippet/documentationoutput.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375372035980" ignored="false" />
     <file path="/documentationoutput.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375372035980" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/app/render.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375460808591" ignored="false" />
-    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/app/temp.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375472450051" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/app/render.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375897937423" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/app/temp.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375814512242" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/app.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375462316677" ignored="false" />
     <file path="/app.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375462316677" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/data/template.json.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375462189251" ignored="false" />
@@ -111,6 +126,19 @@
     <file path="/spanclose.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375471488724" ignored="false" />
     <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/js/templates/snippet/span4temp.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375471641091" ignored="false" />
     <file path="/temp.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375472446667" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/auth.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375814783028" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/binding_json/adjustVacationRequestTask.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375814783028" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/views/taskUI/ProvideSalesLead.ejs" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375814783028" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/views/index.jade" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375814783028" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/binding_json/initiateRequest.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375716532258" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/binding_json/nameDisplay.json" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375716532258" ignored="false" />
+    <file path="/VacationApproval.bpmn20.xml" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375734232957" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/VacationApproval.bpmn20.xml" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375814783029" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/routes/submit.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375814783028" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/node_modules/node-jquery/node_modules/jsdom/example/node-xml/example.xml" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375814783028" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/views/taskUI/Tester.ejs" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375902922878" ignored="false" />
+    <file path="/render.html" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375897803929" ignored="false" />
+    <file path="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/javascripts/front.js" changelist="41bf2781-108c-4d6e-b531-deefcb486dd7" time="1375902329941" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,28 +167,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="front.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/front.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="61" selection-start="3746" selection-end="3746" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="File.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/File.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="21" selection-start="606" selection-end="729" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="search.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/search.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="34" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+            <state line="26" column="28" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,7 +179,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="1" selection-start="3092" selection-end="3092" vertical-scroll-proportion="0.0">
+            <state line="91" column="45" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -187,7 +197,16 @@
       <file leaf-file-name="viewFile.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/viewFile.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="29" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+            <state line="4" column="23" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.jade" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/upload.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="53" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.6844396">
               <folding />
             </state>
           </provider>
@@ -196,19 +215,26 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="21" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+            <state line="88" column="36" selection-start="1972" selection-end="1972" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewFile.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="layout.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="72" selection-start="857" selection-end="872" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewFile.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/viewFile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="1" selection-start="279" selection-end="279" vertical-scroll-proportion="0.05472103">
-              <folding>
-                <element signature="e#0#163#0" expanded="false" />
-              </folding>
+            <state line="4" column="16" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -231,22 +257,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/routes/reg.js" />
-        <option value="$PROJECT_DIR$/views/upload.jade" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/views/search.jade" />
         <option value="$PROJECT_DIR$/models/File.js" />
         <option value="$PROJECT_DIR$/routes/upload.js" />
-        <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/search.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/bp3-brazos.css" />
         <option value="$PROJECT_DIR$/../activiti-UI/Activiti-UI/public/stylesheets/bp3-brazos.css" />
         <option value="$PROJECT_DIR$/views/profile.jade" />
-        <option value="$PROJECT_DIR$/public/javascripts/front.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/jquery.media.js" />
+        <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/routes/viewFile.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/front.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/views/viewFile.jade" />
+        <option value="$PROJECT_DIR$/views/upload.jade" />
+        <option value="$PROJECT_DIR$/views/search.jade" />
       </list>
     </option>
   </component>
@@ -324,6 +350,56 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -470,8 +546,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../activiti-UI/Activiti-UI" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -506,13 +582,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12651555" sideWeight="0.67241377" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22509225" sideWeight="0.67241377" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -590,28 +666,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="40" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.6748927" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/upload.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="41" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/loginIndex.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="1" selection-start="3092" selection-end="3092" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="5" selection-start="602" selection-end="602" vertical-scroll-proportion="0.583691" />
@@ -633,13 +687,6 @@
         <state line="34" column="47" selection-start="828" selection-end="828" vertical-scroll-proportion="0.3849315" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/search.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/File.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="21" selection-start="606" selection-end="729" vertical-scroll-proportion="0.0">
@@ -647,21 +694,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/jquery.media.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="484" column="81" selection-start="15502" selection-end="15502" vertical-scroll-proportion="0.82984656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/loginIndex.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="17" selection-start="44" selection-end="44" vertical-scroll-proportion="0.069863014">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="36" selection-start="1972" selection-end="1972" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/viewFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="16" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/front.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="61" selection-start="3746" selection-end="3746" vertical-scroll-proportion="0.0">
+        <state line="96" column="74" selection-start="3259" selection-end="3259" vertical-scroll-proportion="1.3776824">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="7" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="547" selection-end="590" vertical-scroll-proportion="0.27945206" />
+        <state line="17" column="72" selection-start="857" selection-end="872" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/search.js">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="7" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
+        <state line="91" column="45" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/viewFile.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="23" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -673,26 +764,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/viewFile.jade">
+    <entry file="file://$PROJECT_DIR$/views/search.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+        <state line="26" column="28" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/views/upload.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+        <state line="64" column="53" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.6844396">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/viewFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="279" selection-end="279" vertical-scroll-proportion="0.05472103">
-          <folding>
-            <element signature="e#0#163#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

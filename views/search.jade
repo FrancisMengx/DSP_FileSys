@@ -1,14 +1,14 @@
 extends layout
 block content
 	if(user)
-		div.span4#searchComponent
+		div.span3#searchComponent
 			legend
 				h2 Search File
 			div.searchContent.well
 					h4 Course Info:
 					div.courseInfo
 						label Select Department：
-						select(name = 'depart', onchange='ajaxSearch()')#departSelect
+						select(name = 'depart', onchange='ajaxSearch()')#departSelect.searchCred
 							option(value = 'AB/BE') AB/BE
 							option(value = 'ChemE/Chem') ChemE/Chem
 							option(value = 'CE') CE(Civil)
@@ -19,25 +19,27 @@ block content
 							option(value = 'MA') MA
 							option(value = 'PH/OE') PH/OE
 						label Course Identifier:
-						input(name = 'courseId', placeholder='Course Identifier', onchange='ajaxSearch()')#courseId
+						input(name = 'courseId', placeholder='Course Identifier', onchange='ajaxSearch()')#courseId.searchCred
 						label Select File Type:
-						select(name = 'category', onchange='ajaxSearch()')#categorySelect
+						select(name = 'category', onchange='ajaxSearch()')#categorySelect.searchCred
 							option(value = 'exam') Exam
+							option(value = 'quiz') Quiz
+							option(value = 'homework') Homework
 							option(value = 'note') Note
 							option(value = 'slides') Slide
 						label Professor Name
-						input(name = 'profName', placeholder='Professor Full Name', onchange='ajaxSearch()')#profName
+						input(name = 'profName', placeholder='Professor Full Name', onchange='ajaxSearch()')#profName.searchCred
 					h4 Course Time Info:
 					div.courseInfo
 						Label File year:
-						input(name = 'year', onchange='ajaxSearch()')#year
+						input(name = 'year', onchange='ajaxSearch()')#year.searchCred
 						label File Term:
-						select(name = 'term', onchange='ajaxSearch()')#termSelect
+						select(name = 'term', onchange='ajaxSearch()')#termSelect.searchCred
 							option(value = 1) 1st
 							option(value = 2) 2nd
 							option(value = 3) 3rd
 						label Exam Number(if there is one)：
-						select(name = 'eNumber', onchange='ajaxSearch()')#examSelect
+						select(name = 'eNumber', onchange='ajaxSearch()')#examSelect.searchCred
 							option(value = 1) 1st
 							option(value = 2) 2nd
 							option(value = 3) 3rd
@@ -48,7 +50,7 @@ block content
 						$("#examSelect").prop("selectedIndex", -1);
 						$("#categorySelect").prop("selectedIndex", -1);
 
-		div.span8
+		div.span9
 			legend
 				h2 Search Result
 			div.searchResult

@@ -80,7 +80,7 @@ footer ul li {
 }
 
 #loginbtn,#regbtn,#search, #uploadbtn,
-#addcourse,#calculateBtn{
+#addcourse,#calculateBtn, #download, #back{
 	background-image: -webkit-linear-gradient(top, #108306, #109106);
 	background-repeat: repeat-x;
 	text-align: center;
@@ -89,7 +89,7 @@ footer ul li {
 	vertical-align: bottom;
 }
 #loginbtn:hover, #regbtn:hover,#search:hover,#uploadbtn:hover,
-#addcourse:hover, #calculateBtn:hover{
+#addcourse:hover, #calculateBtn:hover, #download:hover, #back:hover{
 	background: #12a036;
 	background-color: #12a036;
 }
@@ -213,4 +213,13 @@ div a{
 }
 #searchComponent{
 	margin-left: 0px;
+}
+
+.searchContent .searchCred{
+	width: 90%
+}
+
+div >#pdfReader{
+	width: 60%;
+	height: 30%;
 }
