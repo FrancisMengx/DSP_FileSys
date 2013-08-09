@@ -23,6 +23,19 @@ block content
 				div.tab-content
 					div.tab-pane.active#searchHistory
 						legend Search History
+						table.table.table-bordered.table-striped
+							thead
+								tr
+									th File Name
+									th Checkout Date
+							tbody
+								-for record in records
+									tr
+										td #{record.fileName}
+										td #{record.downloadDate}
+
+
+
 					div.tab-pane#GPACalculator
 						legend Calculate GPA
 						div.courses

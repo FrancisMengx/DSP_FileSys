@@ -1,6 +1,7 @@
 extends layout
 block content
-	div
+	if(user)
+		div
 		legend
 			b #{title}  #{file}
 
@@ -9,5 +10,7 @@ block content
 		div.span3
 			a.btn.btn-primary.btn-large#download(href = '/download/#{file}', style='margin-left:20%') Download
 			a.btn.btn-primary.btn-large#back(href = '/search', style='margin-left:20%; margin-top: 10px') Back
-	script.
-		$('a.media').media({width:800, height:700})
+		script.
+			$('a.media').media({width:800, height:700})
+	else
+		p.alert.alert-error Please login before viewing any page

@@ -8,7 +8,7 @@
 var mongodb = require('./db');
 function DownloadHistory(history){
 	this.fileName = history.fileName
-	this.downloadDate = history.dowloadDate
+	this.downloadDate = history.downloadDate
 	this.userName = history.userName
 }
 module.exports = DownloadHistory;
@@ -45,10 +45,11 @@ DownloadHistory.getUserCheckout = function getUserCheckout(username, callback){
 				mongodb.close();
 				return callback(err);
 			}
-			collection.find({userName: username}, function (err, docs) {
+			collection.find({userName: username}).toArray(function (err, docs) {
 				mongodb.close();
 				if (!err || docs) {
 					var historyRecords = [], i = 0;
+					console.log(docs);
 					docs.forEach(function(singleRecord){
 						var record = new DownloadHistory(singleRecord);
 						historyRecords[i] = record;

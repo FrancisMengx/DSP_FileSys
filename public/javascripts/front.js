@@ -94,7 +94,7 @@ function ajaxSearch() {
 				$('.searchResult').append('<p class = "alert alert-info">No Result Found</p>');
 			}else{
 
-			$('.searchResult').append('<table class="table table-condensed table-striped">');
+			$('.searchResult').append('<table class="table table-bordered table-striped">');
 			$('.table').append('<colgroup><col class = "span6"><col class = "span3"><col class = "span3"></colgroup>');
 			$('.table').append('<thead>' +
 				'<tr><th>File Name</th><th>Course ID</th><th>File Type</th></tr></thead><tbody>');
