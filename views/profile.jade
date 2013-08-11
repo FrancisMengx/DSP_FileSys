@@ -23,16 +23,17 @@ block content
 				div.tab-content
 					div.tab-pane.active#searchHistory
 						legend Search History
-						table.table.table-bordered.table-striped
+						table.table.table-condensed.table-striped
 							thead
 								tr
 									th File Name
 									th Checkout Date
 							tbody
-								-for record in records
+								-for(var i = 0; i < records.length; i++)
 									tr
-										td #{record.fileName}
-										td #{record.downloadDate}
+										td
+											a(href='/file/#{records[records.length-1-i].fileName}') #{records[records.length-1-i].fileName}
+										td #{records[records.length-1-i].downloadDate}
 
 
 

@@ -49,7 +49,6 @@ DownloadHistory.getUserCheckout = function getUserCheckout(username, callback){
 				mongodb.close();
 				if (!err || docs) {
 					var historyRecords = [], i = 0;
-					console.log(docs);
 					docs.forEach(function(singleRecord){
 						var record = new DownloadHistory(singleRecord);
 						historyRecords[i] = record;
