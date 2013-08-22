@@ -81,7 +81,7 @@ function ajaxSearch() {
 		id = $('#courseId').val().toLowerCase();
 	}
 	$.ajax({
-		url: "http://localhost:8000/search",
+		url: "/search",
 		type: "post",
 		data: JSON.stringify({depart: $('#departSelect').val(), id: id,
 			cat: $('#categorySelect').val(), pName: $('#profName').val(),
@@ -115,6 +115,25 @@ function ajaxSearch() {
 		error: function (errorMessage) {
 			$('.searchResult').append('<p>Error</p>')
 			console.log(JSON.stringify(errorMessage))
+		}
+	});
+};
+
+var fileReqPost = function(){
+	$.ajax({
+		url:'/profile',
+		type:'post',
+		data:JSON.stringify({courseName:$('#reqCourse').val(),
+			profName:$('#reqProf').val(),reqBody:$('#reqBody').val()}),
+		dataType:'json',
+		contentType:'application/json',
+		success: function(message){
+			$('.reqB').prepend('<p class = "alert alert-success">Request Succeed</p>')
+			$('input').val('');
+			$('textarea').val('');
+		},
+		error: function(message){
+			console.log(message)
 		}
 	});
 }

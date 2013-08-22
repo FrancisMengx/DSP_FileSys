@@ -80,7 +80,7 @@ footer ul li {
 }
 
 #loginbtn,#regbtn,#search, #uploadbtn,
-#addcourse,#calculateBtn, #download, #back{
+#addcourse,#calculateBtn, #download, #back,#postFileReq{
 	background-image: -webkit-linear-gradient(top, #108306, #109106);
 	background-repeat: repeat-x;
 	text-align: center;
@@ -89,7 +89,7 @@ footer ul li {
 	vertical-align: bottom;
 }
 #loginbtn:hover, #regbtn:hover,#search:hover,#uploadbtn:hover,
-#addcourse:hover, #calculateBtn:hover, #download:hover, #back:hover{
+#addcourse:hover, #calculateBtn:hover, #download:hover, #back:hover,#postFileReq:hover{
 	background: #12a036;
 	background-color: #12a036;
 }
@@ -161,7 +161,12 @@ footer ul li {
 	top: auto;
 	bottom: 270px;
 }
-
+#footer{
+	height: 70px;
+	width:80%;
+	position: absolute;
+	bottom: 0;
+}
 #uploadSideNav {
 	width: auto;
 	margin-bottom: 20px;
@@ -222,4 +227,8 @@ div a{
 div >#pdfReader{
 	width: 60%;
 	height: 30%;
+}
+#containter{
+	max-height: 650px;
+	overflow: scroll;
 }

@@ -6,6 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 var DownloadHistory = require('../models/DownloadHistory');
+var FileReq = require('../models/FileReq');
 
 exports.getProfile = function(req, res){
 	if(req.session.user){
@@ -15,7 +16,23 @@ exports.getProfile = function(req, res){
 	}else{
 		res.render('profile',{title:'Profile'});
 	}
+};
 
+exports.handleFileReq = function(req,res){
+	if(req.session.user){
+		var fileReq = new FileReq({
+			userName:req.session.user.userName,
+			course : req.body.courseName,
+			profName : req.body.profName,
+			reqBody : req.body.reqBody
+		});
+		fileReq.save(function(err){
+			if(err){
+				req.flash('error', err);
+			}
+			req.flash('success', 'Request succeed');
+			res.send({success:'success'})
 
-
-}
+		});
+	}
+};

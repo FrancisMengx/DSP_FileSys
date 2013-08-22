@@ -15,14 +15,14 @@ block content
 			div.span9
 				ul.nav.nav-tabs#myTab
 					li.active
-						a(href = '#searchHistory') Search History
+						a(href = '#downloadHistory') Download History
 					li
 						a(href = '#GPACalculator') GPA Calculator
 					li
 						a(href = '#fileRequest') File Request
 				div.tab-content
-					div.tab-pane.active#searchHistory
-						legend Search History
+					div.tab-pane.active#downloadHistory
+						legend Download History
 						table.table.table-condensed.table-striped
 							thead
 								tr
@@ -57,6 +57,13 @@ block content
 						button(onclick= 'calculateGPA()').btn.btn-primary#calculateBtn Calculate
 					div.tab-pane#fileRequest
 						legend File Request
+						div.reqB
+							input#reqCourse(type='text', placeholder='Class',style='margin-left:20px; ')
+							input#reqProf(type = 'text', placeholder='Professor full name', style='margin-left:10px; ' )
+							br
+							textarea#reqBody( placeholder='Request Detail', style='width: 50%; height: 150px;margin-left:20px;margin-top:10px', height = '')
+							br
+							button.btn.btn-primary#postFileReq(onclick='fileReqPost()', style='margin-left:20px') Submit
 		script.
 			$('#myTab a').click(function (e) {
 				e.preventDefault();

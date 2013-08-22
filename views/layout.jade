@@ -10,7 +10,7 @@ html
 		link(rel='stylesheet', href='/stylesheets/jasny-bootstrap.min.css')
 		link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.min.css')
 		link(rel='stylesheet', href='/stylesheets/jasny-bootstrap-responsive.min.css')
-		script(src = '/javascripts/jquery.js')
+		script(src = '/javascripts/jquery.min.js')
 		script(src='/javascripts/bootstrap.min.js')
 		script(src='/javascripts/bootstrap-fileupload.js')
 		script(src= 'http://code.jquery.com/ui/1.9.1/jquery-ui.js')
@@ -30,7 +30,6 @@ html
 							if (!user)
 								li
 									a(href="/login") Login
-
 								li
 									a(href="/reg") Register
 
@@ -39,14 +38,23 @@ html
 									a(href="/profile") Profile
 								li
 									a(href= "/search") Search File
+
 								if(user.author == 'Admin' | user.author == 'Dev')
-									li
-										a(href='/upload') Upload
-								if(user.author == 'Dev')
-									li
-										a(href='/error') Reported Errors
+									li.dropdown
+										a.dropdown-toggle(href="#", data-toggle="dropdown")
+											span Manage
+											span(style='margin-left:5px;').icon-chevron-down
+										ul.dropdown-menu
+											li
+												a(href='/upload') Upload
+											li
+												a(href='/handleFileReq') Handle File Request
+											if(user.author == 'Dev')
+												li
+													a(href='/error') Reported Errors
 								li
 									a(href= "/logout") Logout
+
 
 
 		div.container#containter
@@ -55,7 +63,7 @@ html
 			if (err)
 				div.alert.alert-error= err
 			block content
-		footer.footer.affix-bottom
+		footer.footer.affix-bottom#footer
 			small
 				a(href='/errorReport')
 					font(size = '3') Report Error
