@@ -2,7 +2,7 @@ var index, login, dologin, auth, reg, doreg, regi, logout,
 	getContact, getUploadPage, uploadFile,upload, profile,
 	getProfilePage, getSearchPage, sendSearchInfo,search,
 	getViewPage, view, getPdfFile, downloadFile, download,
-	postFileReq,getAllHistory;
+	postFileReq,getAllHistory, handleReq;
 
 auth = require('./auth');
 regi = require('./reg');
@@ -29,6 +29,7 @@ exports.route = function (app) {
 	app.get('/file/:fileName', getViewPage);
 	app.get('/:fileName', getPdfFile);
 	app.get('/download/:fileName', downloadFile);
+	app.get('/handleFileReq', handleReq);
 	app.get('/allHistory', getAllHistory)
 }
 
@@ -104,4 +105,8 @@ postFileReq = function(req,res){
 
 getAllHistory = function(req, res){
 	return
+};
+
+handleReq = function(req, res){
+
 }
