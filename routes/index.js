@@ -29,9 +29,8 @@ exports.route = function (app) {
 	app.get('/file/:fileName', getViewPage);
 	app.get('/:fileName', getPdfFile);
 	app.get('/download/:fileName', downloadFile);
-	app.get('/handleFileReq', handleReq);
-	app.get('/allHistory', getAllHistory)
-}
+	app.get('/handleReq', handleReq);
+};
 
 index = function (req, res) {
 	if(!req.session.user){
@@ -103,10 +102,7 @@ postFileReq = function(req,res){
 	return profile.handleFileReq(req,res);
 };
 
-getAllHistory = function(req, res){
-	return
-};
-
 handleReq = function(req, res){
-
-}
+	console.log('work');
+	return res.render('handleFileReq', {title:'Handle Request'});
+};
